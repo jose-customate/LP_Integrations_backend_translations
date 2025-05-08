@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Tu Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate ayuda a las empresas a integrar sus sistemas backend con nuestra solución de servicio al cliente potenciada por IA. Conéctate con Salesforce, Zendesk, Shopify y más.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Español <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#" class="active"><i class="fas fa-check"></i> Español</a>
+          <a href="#">Hrvatski</a>
+          <a href="#">Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integraciones</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Canales
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Precios</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Iniciar Sesión</a>
+              <a href="#" class="navbar-item btn-primary">Registrarse</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section with integration showcase -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Conecta Tu Backend <span class="gradient-text">Sin Problemas</span></h1>
+            <p class="hero-subtitle">Integra tus herramientas existentes con nuestra plataforma impulsada por IA para ofrecer experiencias excepcionales a los clientes</p>
+            <div class="hero-cta">
+              <a href="#" class="btn-primary">Programar una Demo</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="integration-showcase">
+              <div class="integration-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/2880px-Shopify_logo_2018.svg.png" alt="Shopify" class="integration-logo">
+                <span class="status-badge">Conectado</span>
+              </div>
+              <div class="integration-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1465px-Salesforce.com_logo.svg.png" alt="Salesforce" class="integration-logo">
+                <span class="status-badge">Conectado</span>
+              </div>
+              <div class="integration-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Zendesk_logo.svg/1435px-Zendesk_logo.svg.png" alt="ZenDesk" class="integration-logo">
+                <span class="status-badge">Conectado</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Potentes Funciones de Integración</h2>
+          <p>Nuestro widget de soporte de chat con IA se conecta a tus sistemas existentes para proporcionar una experiencia perfecta</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Soporte Contextual</h3>
+            <p>Consulta registros de clientes, historial de casos e interacciones anteriores para brindar asistencia personalizada.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Actualizaciones en Tiempo Real</h3>
+            <p>Verifica el estado de los pedidos, procesa devoluciones y responde consultas al instante sin intervención humana.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-plug"></i>
+            </div>
+            <h3>Integraciones Personalizadas</h3>
+            <p>Conéctate con HubSpot, Freshdesk, WooCommerce o tus sistemas internos a través de nuestra API flexible.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>Respuestas Impulsadas por IA</h3>
+            <p>Aprovecha el aprendizaje automático para proporcionar respuestas precisas y útiles a las consultas de los clientes de forma automática.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Integration details section -->
+    <section class="integration-details">
+      <div class="container">
+        <div class="details-content">
+          <div class="section-header">
+            <h2>Optimiza tus Flujos de Trabajo de Atención al Cliente</h2>
+          </div>
+          <div class="details-text">
+            <p>Nuestro widget de soporte de chat con IA se integra con Salesforce, Zendesk y Shopify para ofrecer asistencia rápida y contextual justo donde trabajan tus equipos. Con Salesforce, la IA puede consultar registros de clientes o historiales de casos para proporcionar respuestas personalizadas o actualizar datos del CRM. En Zendesk, puede crear y gestionar tickets o extraer información de tu centro de ayuda para responder preguntas comunes. Para tiendas Shopify, puede verificar instantáneamente el estado de los pedidos, gestionar devoluciones y responder consultas sobre productos sin intervención humana.</p>
+            
+            <p>Estas integraciones ayudan a optimizar los flujos de trabajo, reducir los tiempos de respuesta y garantizar un soporte al cliente eficiente. Si tu empresa utiliza otras herramientas, como HubSpot, Freshdesk, WooCommerce o sistemas internos, podemos crear integraciones personalizadas para satisfacer tus necesidades y mantener conectado tu ecosistema de soporte.</p>
+            
+            <div class="details-cta">
+              <a href="#" class="btn-primary">Comenzar</a>
+              <a href="#" class="text-link">Ver Documentación <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>¿Listo para transformar tu servicio de atención al cliente?</h2>
+          <p>Comienza con Customate hoy y descubre la diferencia que nuestra solución impulsada por IA puede hacer.</p>
+          <div class="cta-buttons">
+            <a href="#" class="btn-primary">Programar una Demo</a>
+            <a href="#" class="btn-outline">Contactar con Ventas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="footer-logo" />
+            <p>Automatiza el Soporte al Cliente</p>
+          </div>
+        </div>
+        
+        <div class="bottom-bar">
+          <div class="links">
+            <a href="https://www.customate.ai/imprint" target="_blank">Aviso Legal</a>
+            <a href="https://www.customate.ai/tac" target="_blank">Términos y Condiciones</a>
+            <a href="https://www.customate.ai/datause" target="_blank">Uso de Datos</a>
+            <a href="#contact" class="contactLink">Contáctanos</a>
+          </div>
+          <strong>
+            <a href="#feedback" class="feedback">Comentarios</a>
+          </strong>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Valoramos Tus Comentarios</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <p>Ayúdanos a mejorar nuestro producto — ¿qué podemos hacer mejor? Además, cuéntanos sobre cualquier desafío de servicio al cliente que enfrentes en tu negocio.</p>
+          <textarea id="feedbackInput" placeholder="Tus comentarios aquí..."></textarea>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelFeedback">Cancelar</button>
+          <button class="btn-primary" id="sendFeedback">Enviar Comentarios</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Contacta con Nuestro Equipo</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="contactName">Nombre</label>
+            <input type="text" id="contactName" placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" placeholder="tu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="contactInput">Mensaje</label>
+            <textarea id="contactInput" placeholder="¿Cómo podemos ayudarte?"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelContact">Cancelar</button>
+          <button class="btn-primary" id="sendContact">Enviar Mensaje</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
