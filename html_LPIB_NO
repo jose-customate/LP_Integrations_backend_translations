@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koble Til Ditt Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate hjelper bedrifter med å integrere sine backend-systemer med vår AI-drevne kundeserviceløsning. Koble til Salesforce, Zendesk, Shopify og mer.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Norsk <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#">Español</a>
+          <a href="#">Hrvatski</a>
+          <a href="#" class="active"><i class="fas fa-check"></i> Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrasjoner</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Kanaler
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Priser</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blogg</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Logg Inn</a>
+              <a href="#" class="navbar-item btn-primary">Registrer Deg</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section with integration showcase -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Koble Til Ditt Backend <span class="gradient-text">Sømløst</span></h1>
+            <p class="hero-subtitle">Integrer dine eksisterende verktøy med vår AI-drevne plattform for å levere eksepsjonelle kundeopplevelser</p>
+            <div class="hero-cta">
+              <a href="#" class="btn-primary">Planlegg en Demo</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="integration-showcase">
+              <div class="integration-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/2880px-Shopify_logo_2018.svg.png" alt="Shopify" class="integration-logo">
+                <span class="status-badge">Tilkoblet</span>
+              </div>
+              <div class="integration-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1465px-Salesforce.com_logo.svg.png" alt="Salesforce" class="integration-logo">
+                <span class="status-badge">Tilkoblet</span>
+              </div>
+              <div class="integration-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Zendesk_logo.svg/1435px-Zendesk_logo.svg.png" alt="ZenDesk" class="integration-logo">
+                <span class="status-badge">Tilkoblet</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Kraftige Integrasjonsfunksjoner</h2>
+          <p>Vår AI-chattewidget kobler seg til dine eksisterende systemer for å gi en sømløs opplevelse</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Kontekstbevisst Støtte</h3>
+            <p>Referer til kundeopplysninger, sakshistorikk og tidligere interaksjoner for å levere personlig assistanse.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Sanntidsoppdateringer</h3>
+            <p>Sjekk ordrestatus øyeblikkelig, behandle returer og svar på forespørsler uten menneskelig inngripen.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-plug"></i>
+            </div>
+            <h3>Tilpassede Integrasjoner</h3>
+            <p>Koble til HubSpot, Freshdesk, WooCommerce eller dine interne systemer gjennom vår fleksible API.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>AI-Drevne Svar</h3>
+            <p>Utnytt maskinlæring for å gi nøyaktige, nyttige svar på kundeforespørsler automatisk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Integration details section -->
+    <section class="integration-details">
+      <div class="container">
+        <div class="details-content">
+          <div class="section-header">
+            <h2>Effektiviser Dine Kundesupportarbeidsflyter</h2>
+          </div>
+          <div class="details-text">
+            <p>Vår AI-chattewidget integreres med Salesforce, Zendesk og Shopify for å levere rask, kontekstbevisst assistanse akkurat der teamene dine jobber. Med Salesforce kan AI-en referere til kundeopplysninger eller sakshistorikk for å gi personlige svar eller oppdatere CRM-data. I Zendesk kan den opprette og administrere billetter eller hente informasjon fra støttesenteret ditt for å svare på vanlige spørsmål. For Shopify-butikker kan den øyeblikkelig sjekke ordrestatus, administrere returer og svare på produktforespørsler uten menneskelig inngripen.</p>
+            
+            <p>Disse integrasjonene bidrar til å effektivisere arbeidsflyter, redusere responstid og sikre effektiv kundestøtte. Hvis virksomheten din bruker andre verktøy—som HubSpot, Freshdesk, WooCommerce eller interne systemer—kan vi bygge tilpassede integrasjoner for å møte dine behov og holde støtteøkosystemet ditt tilkoblet.</p>
+            
+            <div class="details-cta">
+              <a href="#" class="btn-primary">Kom i Gang</a>
+              <a href="#" class="text-link">Se Dokumentasjon <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Klar til å transformere kundesupporten din?</h2>
+          <p>Kom i gang med Customate i dag og se forskjellen vår AI-drevne løsning kan gjøre.</p>
+          <div class="cta-buttons">
+            <a href="#" class="btn-primary">Planlegg en Demo</a>
+            <a href="#" class="btn-outline">Kontakt Salg</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="footer-logo" />
+            <p>Automatiser Kundesupport</p>
+          </div>
+        </div>
+        
+        <div class="bottom-bar">
+          <div class="links">
+            <a href="https://www.customate.ai/imprint" target="_blank">Impressum</a>
+            <a href="https://www.customate.ai/tac" target="_blank">Vilkår og Betingelser</a>
+            <a href="https://www.customate.ai/datause" target="_blank">Databruk</a>
+            <a href="#contact" class="contactLink">Kontakt oss</a>
+          </div>
+          <strong>
+            <a href="#feedback" class="feedback">Tilbakemelding</a>
+          </strong>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Vi Verdsetter Din Tilbakemelding</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <p>Hjelp oss å forbedre produktet vårt — hva kan vi gjøre bedre? Fortell oss også om eventuelle kundeserviceutfordringer du møter i din bedrift.</p>
+          <textarea id="feedbackInput" placeholder="Din tilbakemelding her..."></textarea>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelFeedback">Avbryt</button>
+          <button class="btn-primary" id="sendFeedback">Send Tilbakemelding</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Kontakt Teamet Vårt</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="contactName">Navn</label>
+            <input type="text" id="contactName" placeholder="Ditt navn">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">E-post</label>
+            <input type="email" id="contactEmail" placeholder="din@epost.com">
+          </div>
+          <div class="form-group">
+            <label for="contactInput">Melding</label>
+            <textarea id="contactInput" placeholder="Hvordan kan vi hjelpe deg?"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelContact">Avbryt</button>
+          <button class="btn-primary" id="sendContact">Send Melding</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
